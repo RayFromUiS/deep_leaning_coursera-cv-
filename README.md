@@ -23,5 +23,5 @@ Three ipynb notebook homework need to be coded.
    *He initialization 
   In the zeros initializaiton, loss function is barely learning with such weight as zeros, which 
   produce a barely learning line.
-  ![image Info](file:///d:/github/readme_images/deep_learning/initialization.png "Initialization learning curve")
+  ![loss function for zero initialization](file:///D:\github\Readme_images\deep_learning_coursera/initialization.png "Initialization learning curve")
   
