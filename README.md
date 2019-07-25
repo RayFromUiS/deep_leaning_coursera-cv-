@@ -22,4 +22,6 @@ Three ipynb notebook homework need to be coded.
    *Random initialization,the weights to large random values.
    *He initialization 
   In the zeros initializaiton, loss function is barely learning with such weight as zeros, which 
-  produce
+  produce a barely learning line.
+  ![image Info](file:///d:/github/readme_images/deep_learning/initialization.png "Initialization learning curve")
+  
