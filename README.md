@@ -18,10 +18,9 @@ Three ipynb notebook homework need to be coded.
 * week 1,initialization,gradient checking and regulization
   * initialization
   Three initializaiton method is compared based on a data classification problem.
-   *Zeros initialization which basically  setting "zeros" in the input argument.
-   *Random initialization,the weights to large random values.
-   *He initialization 
+   1. Zeros initialization which basically  setting "zeros" in the input argument.
+   2. Random initialization,the weights to large random values.
+   3. He initialization 
   In the zeros initializaiton, loss function is barely learning with such weight as zeros, which 
   produce a barely learning line.
-  ![loss function for zero initialization](file:///D:\github\Readme_images\deep_learning_coursera/initialization.png "Initialization learning curve")
   
