@@ -19,8 +19,26 @@ Three ipynb notebook homework need to be coded.
   * initialization
   Three initializaiton method is compared based on a data classification problem.
    1. Zeros initialization which basically  setting "zeros" in the input argument.
+    loss function is barely learning with such weight as zeros, which produce a barely learning line.
+    symmetry is not broken down with such initialization method
    2. Random initialization,the weights to large random values.
-   3. He initialization 
-  In the zeros initializaiton, loss function is barely learning with such weight as zeros, which 
-  produce a barely learning line.
+    symmetry is interrupted and each neuron is leaning differently.
+   3. He initialization .
+    > Best way of initial for relu activation
+  * gradient checking
+  **Instructions**:
+- First compute "gradapprox" using the formula above (1) and a small value of $\varepsilon$. Here are the Steps to follow:
+    1. $\theta^{+} = \theta + \varepsilon$
+    2. $\theta^{-} = \theta - \varepsilon$
+    3. $J^{+} = J(\theta^{+})$
+    4. $J^{-} = J(\theta^{-})$
+    5. $gradapprox = \frac{J^{+} - J^{-}}{2  \varepsilon}$
+- Then compute the gradient using backward propagation, and store the result in a variable "grad"
+- Finally, compute the relative difference between "gradapprox" and the "grad" using the following formula:
+$$ difference = \frac {\mid\mid grad - gradapprox \mid\mid_2}{\mid\mid grad \mid\mid_2 + \mid\mid gradapprox \mid\mid_2} \tag{2}$$
+You will need 3 Steps to compute this formula:
+   - 1'. compute the numerator using np.linalg.norm(...)
+   - 2'. compute the denominator. You will need to call np.linalg.norm(...) twice.
+   - 3'. divide them.
+- If this difference is small (say less than $10^{-7}$), you can be quite confident that you have computed your gradient correctly. Otherwise, there may be a mistake in the gradient computation. 
   
