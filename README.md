@@ -28,17 +28,17 @@ Three ipynb notebook homework need to be coded.
   * gradient checking
   **Instructions**:
 - First compute "gradapprox" using the formula above (1) and a small value of $\varepsilon$. Here are the Steps to follow:
-    1. $\theta^{+} = \theta + \varepsilon$
-    2. $\theta^{-} = \theta - \varepsilon$
-    3. $J^{+} = J(\theta^{+})$
-    4. $J^{-} = J(\theta^{-})$
-    5. $gradapprox = \frac{J^{+} - J^{-}}{2  \varepsilon}$
+    1. $$ \theta^{+} = \theta + \varepsilon $$
+    2. $$ \theta^{-} = \theta - \varepsilon $$
+    3. $$ J^{+} = J(\theta^{+}) $$
+    4. $$ J^{-} = J(\theta^{-}) $$
+    5. $$ gradapprox = \frac{J^{+} - J^{-}}{2  \varepsilon} $$
 - Then compute the gradient using backward propagation, and store the result in a variable "grad"
 - Finally, compute the relative difference between "gradapprox" and the "grad" using the following formula:
-$$ difference = \frac {\mid\mid grad - gradapprox \mid\mid_2}{\mid\mid grad \mid\mid_2 + \mid\mid gradapprox \mid\mid_2} \tag{2}$$
+$$ difference = \frac {\mid\mid grad - gradapprox \mid\mid_2}{\mid\mid grad \mid\mid_2 + \mid\mid gradapprox \mid\mid_2} \tag{2} $$
 You will need 3 Steps to compute this formula:
    - 1'. compute the numerator using np.linalg.norm(...)
    - 2'. compute the denominator. You will need to call np.linalg.norm(...) twice.
    - 3'. divide them.
-- If this difference is small (say less than $10^{-7}$), you can be quite confident that you have computed your gradient correctly. Otherwise, there may be a mistake in the gradient computation. 
+- If this difference is small (say less than $$10^{-7}$$), you can be quite confident that you have computed your gradient correctly. Otherwise, there may be a mistake in the gradient computation. 
   
