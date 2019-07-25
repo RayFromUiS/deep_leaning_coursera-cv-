@@ -1,4 +1,4 @@
-# Deep Learning tutorial
+# Deep Learning tutorial(....continuing)
 
 This is repo for totebook and reminder for my learning curve of Coursera specialization ['Deep learning'] (https://www.coursera.org/specializations/deep-learning? "Deep learning").
 It is composed with such 5 courses,
