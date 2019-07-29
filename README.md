@@ -8,9 +8,9 @@ It is composed with such 5 courses,
 4. Convolutional Neural Networks
 5. Sequence Models
 Flowing will be notes and erros which i made and correct through corresponding courses
-## Neutral networks and deep learning
+## Course1,Neutral networks and deep learning
 
-## Improving Deep Neural Networks
+## Course2,Improving Deep Neural Networks
 Three weeks needed to cover this course, initialization,gradient checking, and regulization 
 are covered in the first week. Then week two introduce optimization function, followed with 
 thrid week of tensorflow tutorial for a multi-class assignment.
@@ -43,7 +43,7 @@ You will need 3 Steps to compute this formula:
 - If this difference is small (say less than $$10^{-7}$$), you can be quite confident that you have computed your gradient correctly. Otherwise, there may be a mistake in the gradient computation. 
   
 
-## Convolutional Neural Networks
+## Course4,Convolutional Neural Networks
 
 * week 1, fundation of con neural networks
  * genreal
