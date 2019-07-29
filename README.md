@@ -42,3 +42,22 @@ You will need 3 Steps to compute this formula:
    - 3'. divide them.
 - If this difference is small (say less than $$10^{-7}$$), you can be quite confident that you have computed your gradient correctly. Otherwise, there may be a mistake in the gradient computation. 
   
+
+## Convolutional Neural Networks
+
+* week 1, fundation of con neural networks
+ * genreal
+ Introduct the process of how to convolutionlize a ready to train matrix,Using the filter,
+Which will covert origianl matrix accordingly. Also key concepts have been explained, such as
+padding,stride,poolling and most importantly, the dimension controling over the whole dataset.
+In case of same, might maintain the dimension of training example dimentsion, while valid,usuallly
+reduce the dimensionlity of training matrix.
+ * programming assignment
+ For this assignment, it mainly about how to construct a con network for scraching.
+
+* week2, Case studies
+ * general
+   In this week's study, several conv network strutuce has been involved,such as Resnet,Inception 
+   network,and other pretrained well-known network, vgg16,vgg19 and so on.
+ * programming assignment
+ A Resnet 50 has been stacked from stratch.
