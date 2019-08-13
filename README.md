@@ -61,3 +61,9 @@ reduce the dimensionlity of training matrix.
    network,and other pretrained well-known network, vgg16,vgg19 and so on.
  * programming assignment
  A Resnet 50 has been stacked from stratch.
+ 
+ 
+ ## Course5,Sequence model
+ 
+ *NOTE, first rnn assignment is only update for the forward propagation(back propagation is wating for finished)
+ 
